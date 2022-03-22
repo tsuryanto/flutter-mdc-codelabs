@@ -22,7 +22,7 @@ import 'model/product.dart';
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
 
-  // TODO: Make a collection of cards (102)
+  // Make a collection of cards (102)
 
   List<Card> _buildGridCards(BuildContext context) {
     List<Product>? products = ProductsRepository.loadProducts(Category.all);
@@ -59,7 +59,7 @@ class HomePage extends StatelessWidget {
                   // Align labels to the bottom and center (103)
                   mainAxisAlignment: MainAxisAlignment.end,
                   crossAxisAlignment: CrossAxisAlignment.center,
-                  // TODO: Change innermost Column (103)
+                  // Change innermost Column (103)
                   children: [
                     // Handle overflowing labels (103)
                     Text(
